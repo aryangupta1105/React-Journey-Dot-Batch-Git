@@ -1,8 +1,8 @@
 import "./Product.css"
 import ProductItem from "./ProductItem.js"
+import Card from "./Card.js";
 
-
-function Product (props) {
+const Product = (props)=>{
     return (
         <Card className="Products">
             <ProductItem>
